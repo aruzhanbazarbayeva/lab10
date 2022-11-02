@@ -53,12 +53,24 @@ function get_sum(lab) {
   sum=0;
   const results=
   {
+    lab1,
+    lab2,
+    lab3, 
+    lab4_5,
+    lab6,
+    lab8,
+    quiz1,
     summa
   }
   return results;
 }
+function summation ()
+{
+  return get_sum(lab1), get_sum(lab2),get_sum(lab3),get_sum(lab4_5),get_sum(lab6), get_sum(lab8),get_sum(quiz1)
+}
 
-console.log(get_sum(lab1), get_sum(lab2),get_sum(lab3),get_sum(lab4_5),get_sum(lab6), get_sum(lab8),get_sum(quiz1))
+console.log (summation())
+
 
 function total()
 {
